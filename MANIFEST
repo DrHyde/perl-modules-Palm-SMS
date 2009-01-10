@@ -1,0 +1,9 @@
+ChangeLog
+Makefile.PL
+MANIFEST
+README
+COPYING
+t/Palm-SMS.t
+t/sample.pdb
+lib/Palm/SMS.pm
+bin/smsdump
