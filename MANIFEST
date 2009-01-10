@@ -7,3 +7,5 @@ t/Palm-SMS.t
 t/sample.pdb
 lib/Palm/SMS.pm
 bin/smsdump
+t/pod-coverage.t
+t/pod.t
