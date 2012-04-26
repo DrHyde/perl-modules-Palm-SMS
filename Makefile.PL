@@ -7,6 +7,12 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     NAME              => 'Palm::SMS',
+    META_MERGE => {
+        license => 'other',
+        resource => {
+	    repository => 'https://github.com/DrHyde/perl-modules-Palm-SMS'
+        }
+    },
     VERSION_FROM      => 'lib/Palm/SMS.pm',
     EXE_FILES         => ['bin/smsdump'],
     PREREQ_PM         => {
