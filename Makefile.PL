@@ -9,8 +9,9 @@ WriteMakefile(
     NAME              => 'Palm::SMS',
     META_MERGE => {
         license => 'other',
-        resource => {
-	    repository => 'https://github.com/DrHyde/perl-modules-Palm-SMS'
+        resources => {
+	    repository => 'https://github.com/DrHyde/perl-modules-Palm-SMS',
+	    bugtracker => 'https://github.com/DrHyde/perl-modules-Palm-SMS/issues'
         }
     },
     VERSION_FROM      => 'lib/Palm/SMS.pm',
