@@ -22,7 +22,7 @@ use warnings;
 use Palm::Raw();
 use vars qw($VERSION @ISA @folders);
 
-$VERSION = 0.03;
+$VERSION = 0.04;
 
 @ISA = qw(Palm::Raw);
 
@@ -552,6 +552,8 @@ messages, hopefully attaching a patch which corrects the shortcoming.
 L<Palm::PDB> by Andrew Arensburger E<lt>arensb@ooblick.comE<gt>
 
 L<Palm::Treo680MessagesDB>
+
+=encoding iso-8859-1
 
 L<smssync> v 1.0 by Janne Mäntyharju E<lt>janne.mantyharju@iki.fiE<gt>
 

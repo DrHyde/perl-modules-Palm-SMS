@@ -1,3 +1,6 @@
+2015-02-24      0.04  Minor fix to make modern Test::Pod cope with
+                        non-ASCII in doco. No functional changes.
+
 2009-01-10  David Cantrell       <david@cantrell.org.uk>
 
         * lib/Palm/SMS.pm, bin/smsdump: Add support for Treo 680
