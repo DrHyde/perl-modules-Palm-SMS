@@ -35,7 +35,7 @@ Palm::SMS - parse SMS database files
     use Palm::PDB;
     use Palm::SMS;
 
-    my $pdb = new Palm::PDB;
+    my $pdb = Palm::PDB->new();
     $pdb->Load("sms.pdb");
 
     my $record = $pdb->{records}[0];
@@ -222,7 +222,7 @@ sub import {
 
 =head2 new
 
-  $pdb = new Palm::SMS;
+  $pdb = Palm::SMS->new();
 
 Creates a new PDB, initialized with the various Palm::SMS fields
 and an empty record list.
