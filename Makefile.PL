@@ -7,8 +7,10 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     NAME              => 'Palm::SMS',
-    META_MERGE => {
+    META_ADD => {
         license => 'open_source',
+},
+META_MERGE => {
         resources => {
 	    repository => 'https://github.com/DrHyde/perl-modules-Palm-SMS',
 	    bugtracker => 'https://github.com/DrHyde/perl-modules-Palm-SMS/issues'
